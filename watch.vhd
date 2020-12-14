@@ -54,7 +54,7 @@ begin
 						if(counthr0=10) then
 							counthr0:=0;
 							counthr1:=counthr1+1;
-							if(counthr1=3) then
+							if(counthr1=2 and counthr0=4) then
 								countmin0:=0;
 								countmin1:=0;
 								counthr0:=0;
